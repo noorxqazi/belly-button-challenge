@@ -102,7 +102,7 @@ function buildCharts(sample) {
         // bubble chart 
         var bubbleTrace = {
             x: result.otu_ids,
-            y: result.samplevalues,
+            y: result.sample_values,
             mode: "markers",
             text: result.otu_labels,
             marker: {
