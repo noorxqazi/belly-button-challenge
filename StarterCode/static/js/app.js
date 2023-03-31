@@ -101,13 +101,13 @@ function buildCharts(sample) {
 
         // bubble chart 
         var bubbleTrace = {
-            x: result.otuids,
+            x: result.otu_ids,
             y: result.samplevalues,
             mode: "markers",
-            text: result.otulabels,
+            text: result.otu_labels,
             marker: {
-                color: result.otuids,
-                size: result.samplevalues,
+                color: result.otu_ids,
+                size: result.sample_values,
             }
         };
 
